@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+
+  <body class="">
+    <section class="firstsec text-center m-80 p-32 rounded-2xl">
+      <span class="space-y-4 text-white">
+    <h1 class="text-6xl font-semibold font-serif ">Today's Weather</h1>
+    <p class="text-xl text-gray-200">May 2, 2024</p>
+     <img class="m-auto pb-4" src="cloud.png" alt="cloud" width="100">
+
+  
+    </span>
+    <span class>
+       <input id="city" class="p-2 w-64 rounded-l-md border" type="text" placeholder="Enter city" >
+       <button id="search" class=" p-2 rounded-r-md bg-gray-900 font-medium text-gray-300">Search</button>
+    
+  </span>
+  <div id="display" class="bg-white font-serif  text-gray-900 p-14 space-y-4 shadow m-12 rounded-md"></div>
+    
+   
+
+    </section>
+
+
+    <script src="index.js"></script>
+   </body>
+
+</html>

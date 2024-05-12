@@ -1,0 +1,18 @@
+body{
+  background-image: url('sky2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.firstsec{
+    background: linear-gradient(180deg, #0a2f81, #668be3,  rgb(245, 133, 170) );
+    box-shadow: 40px;
+}
+
+/* #display{
+  background: #F8F9FB;
+} */
+
+.cityname{
+  font-size: 40px;
+  color: black
+}
